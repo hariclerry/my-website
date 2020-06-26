@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Harriet Ayugi',
   twitterUsername: 'clerryha',
   githubUsername: 'hariclerry',
-  authorAvatar: '/images/harrieta.jpg',
+  authorAvatar: '/static/images/harrieta.jpg',
   authorDescription: `I have 3 years of professional experience as a software engineer. While I'm a proficient full-stack JavaScript developer, 
   my focus is more on front-end web development, I love to bring the best experience to users.`,
   skills: [
@@ -100,32 +100,32 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/book_management.png",
+      image: "/static/images/book_management.png",
       description: "A book management app",
       url: "http://book-management-app-frontend.herokuapp.com/"
     },
     {
-      image: "/images/sms_management_app.png",
+      image: "/static/images/sms_management_app.png",
       description: "A sms management app",
       url: "https://modest-ritchie-12684e.netlify.app/"
     },
     {
-      image: "/images/tribute_page.png",
+      image: "/static/images/tribute_page.png",
       description: "A tribute page",
       url: "https://hariclerry.github.io/"
     },
     {
-      image: "/images/landing_page.png",
+      image: "/static/images/landing_page.png",
       description: "A simple product landing page",
       url: "https://hariclerry.github.io/product-landing-page.html"
     },
     {
-      image: "/images/documententation_page.png",
+      image: "/static/images/documententation_page.png",
       description: "A simple documentation page",
       url: "https://hariclerry.github.io/documentation-page.html"
     },
     {
-      image: "/images/gatsby-starter-cv.png",
+      image: "/static/images/gatsby-starter-cv.png",
       description: "Change this",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
@@ -139,14 +139,14 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/personal-website', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/code.jpg',
+  siteCover: '/static/images/code.jpg',
   googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#3b194a',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: '/images/harrieta.jpg',
+  icon: '/static/images/harrieta.jpg',
   headerLinks: [
     {
       label: 'Home',

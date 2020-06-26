@@ -1,18 +1,21 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hey! I\'m Harriet!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Harriet Ayugi',
+  twitterUsername: 'clerryha',
+  githubUsername: 'hariclerry',
+  authorAvatar: '/images/harrieta.jpg',
+  authorDescription: `I have 3 years of professional experience as a software engineer. While I'm a proficient full-stack JavaScript developer, 
+  my focus is on front-end web development to bring the best experience to your users.
+    I mainly work with <strong>Javascript, NodeJS and React.</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Javascript',
+      level: 50
+    },
+    {
+      name: 'React',
       level: 70
     },
     {
@@ -20,16 +23,28 @@ module.exports = {
       level: 60
     },
     {
-      name: 'Javascript',
-      level: 50
+      name: 'NodeJs',
+      level: 60
     },
     {
-      name: 'NodeJs',
+      name: 'HTML',
+      level: 60
+    },
+    {
+      name: 'Python',
+      level: 30
+    },
+    {
+      name: 'Flask',
+      level: 30
+    },
+    {
+      name: 'MongoDB',
       level: 40
     },
     {
-      name: 'React',
-      level: 60
+      name: 'PostgreSQL',
+      level: 40
     },
     {
       name: 'Git',
@@ -40,43 +55,43 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Phaneroo",
       begin: {
         month: 'sep',
         year: '2019'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      occupation: "Backend developer",
+      description: "I am responsible for implementing, developing, testing and documenting a Prayer Requests API which enables members to send their prayer requests."
   
     },  {
-      company: "Lendico",
+      company: "Botkeeper Inc. USA",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'Feb',
+        year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '1 year',
+      occupation: "Frontend Developer",
+      description: "Responsible for implementation, development, testing, documentation, and deployment of a Report generating application, Bank integration application and Transaction manager."
   
     }, {
-      company: "Anapro",
+      company: "Andela",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'Apr',
+        year: '2018'
       },
-      duration: '1 yr e 5 mos',
+      duration: '2 years',
       occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      description: "Responsible for the design, implementation, development, testing, documentation, and deployment of a applications such as Travela, travel management tool"
     }, {
-      company: "Anapro",
+      company: "UICT",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'October',
+        year: '2014'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '3 years 5 mos',
+      occupation: "Part-time Lecturer",
+      description: "Responsible for preparing teaching materials and handouts, Delivering lectures and conducting practical lessons on Computer basics, Microsoft office suites, CSS and HTML"
   
     },
   ],
@@ -94,17 +109,17 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/clerryha",
+    linkedin: "https://www.linkedin.com/in/ayugi-harriet-05744b99",
+    github: "https://github.com/hariclerry?tab=repositories",
+    email: "clerryha@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/code.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
-  theme_color: '#25303B',
+  theme_color: '#3b194a',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',

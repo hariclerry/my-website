@@ -125,9 +125,9 @@ module.exports = {
       url: "https://hariclerry.github.io/documentation-page.html"
     },
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Change this",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/personal-website.png",
+      description: "A personal website",
+      url: "https://harriet-ayugi.onrender.com/"
     },
     /* more portifolio items here */
   ],
@@ -140,7 +140,7 @@ module.exports = {
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/personal-website', // Note: it must *not* have a trailing slash.
   siteCover: '/images/code.jpg',
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-170949981-1',
   background_color: '#ffffff',
   theme_color: '#3b194a',
   fontColor: "#000000cc",

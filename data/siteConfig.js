@@ -1,14 +1,13 @@
 module.exports = {
   siteTitle: 'Hey! I\'m Harriet!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `Browse to get to know me better`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Harriet Ayugi',
   twitterUsername: 'clerryha',
   githubUsername: 'hariclerry',
   authorAvatar: '/images/harrieta.jpg',
   authorDescription: `I have 3 years of professional experience as a software engineer. While I'm a proficient full-stack JavaScript developer, 
-  my focus is on front-end web development to bring the best experience to your users.
-    I mainly work with <strong>Javascript, NodeJS and React.</strong>`,
+  my focus is more on front-end web development, I love to bring the best experience to users.`,
   skills: [
     {
       name: 'Javascript',
@@ -16,7 +15,7 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 70
+      level: 60
     },
     {
       name: 'CSS',
@@ -48,7 +47,11 @@ module.exports = {
     },
     {
       name: 'Git',
-      level: 70
+      level: 60
+    },
+    {
+      name: 'Gatsby',
+      level: 20
     },
     /* more skills here */
   ],
@@ -57,8 +60,8 @@ module.exports = {
     {
       company: "Phaneroo",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'Feb',
+        year: '2020'
       },
       duration: null,
       occupation: "Backend developer",
@@ -86,7 +89,7 @@ module.exports = {
     }, {
       company: "UICT",
       begin: {
-        month: 'October',
+        month: 'Oct',
         year: '2014'
       },
       duration: '3 years 5 mos',
@@ -97,14 +100,34 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/book_management.png",
+      description: "A book management app",
+      url: "http://book-management-app-frontend.herokuapp.com/"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/sms_management_app.png",
+      description: "A sms management app",
+      url: "https://modest-ritchie-12684e.netlify.app/"
+    },
+    {
+      image: "/images/tribute_page.png",
+      description: "A tribute page",
+      url: "https://hariclerry.github.io/"
+    },
+    {
+      image: "/images/landing_page.png",
+      description: "A simple product landing page",
+      url: "https://hariclerry.github.io/product-landing-page.html"
+    },
+    {
+      image: "/images/documententation_page.png",
+      description: "A simple documentation page",
+      url: "https://hariclerry.github.io/documentation-page.html"
+    },
+    {
+      image: "/images/gatsby-starter-cv.png",
+      description: "Change this",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     /* more portifolio items here */
   ],
@@ -115,15 +138,15 @@ module.exports = {
     email: "clerryha@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/personal-website', // Note: it must *not* have a trailing slash.
   siteCover: '/images/code.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#3b194a',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: '/images/harrieta.jpg',
   headerLinks: [
     {
       label: 'Home',

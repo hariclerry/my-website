@@ -1,10 +1,15 @@
 module.exports = {
-  defaultTitle: 'John Doe',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
-  url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  defaultTitle: 'Harriet Ayugi',
+  logo: '',
+  author: 'Harriet',
+  defaultDescription: 'I’m Harriet and I’m a Software engineer!',
+  social: {
+    twitter: 'https://twitter.com/clerryha',
+    linkedin: 'https://www.linkedin.com/in/ayugi-harriet-05744b99',
+    github: 'https://github.com/hariclerry?tab=repositories',
+    email: 'clerryha@gmail.com',
+  },
+  githubUsername: 'hariclerry',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
@@ -16,10 +21,6 @@ module.exports = {
   googleAnalyticsID: 'UA-88875900-4',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
-  social: {
-    facebook: 'appId',
-    twitter: '@smakosh',
-  },
   address: {
     city: 'City',
     region: 'Region',

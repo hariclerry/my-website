@@ -7,13 +7,11 @@ export const Wrapper = styled.div`
   background-size: contain;
   background-position: right top;
   background-repeat: no-repeat;
-
   @media (max-width: 960px) {
     background-color: #efeeff;
     margin-bottom: 2rem;
     padding-bottom: 0;
   }
-
   @media (max-width: 560px) {
     background-color: #efeeff;
     width: 100vw;
@@ -26,12 +24,10 @@ export const IntroWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   @media (max-width: 960px) {
     flex-direction: column-reverse;
     justify-content: center;
   }
-
   @media (max-width: 460px) {
     flex-direction: column-reverse;
     justify-content: center;
@@ -47,13 +43,11 @@ export const Details = styled.div`
   font-style: normal;
   font-size: 1rem;
   max-width: 400px;
-
   @media (max-width: 960px) {
     justify-content: center;
     align-items: center;
     padding-left: 25px;
   }
-
   h2 {
     font: 1.7rem Optima, sans-serif;
     line-height: 1.6;
@@ -61,13 +55,11 @@ export const Details = styled.div`
     font-style: normal;
     font-weight: 900;
   }
-
   h4 {
     margin-bottom: 15px;
     font-size: 32pt;
     font-weight: normal;
     color: #707070;
-
     @media (max-width: 960px) {
       font-size: 20pt;
     }
@@ -78,16 +70,14 @@ export const Thumbnail = styled.div`
   flex: 1;
   display: flex;
   justify-content: start;
-  padding-left: 150px;
+  padding-left: 50px;
   padding-bottom: 150px;
-
   @media (max-width: 960px) {
     width: 100%;
     justify-content: center;
     padding-bottom: 10px;
     padding-left: 0;
   }
-
   @media (max-width: 560px) {
     width: 100%;
     justify-content: center;
@@ -96,7 +86,6 @@ export const Thumbnail = styled.div`
     padding-bottom: 10px;
     margin-left: 0;
   }
-
   img {
     width: 250px;
     height: 300px;

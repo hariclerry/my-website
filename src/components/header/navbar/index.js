@@ -2,7 +2,7 @@ import React from "react"
 
 import { defaultTitle } from "../../../data"
 import Container from "../../common/container/containerStyles"
-import NavbarLinks from ".."
+import NavbarLinks from "../navbarLinks"
 import { Wrapper, HeaderTitle } from "./navbarStyles"
 
 export default () => (

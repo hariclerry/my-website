@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Harriet Ayugi`,
+    description: `Harriet's Portfolio site`,
+    author: `@hariclerry`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `markdown`,
+        path: `${__dirname}/src/markdown`,
       },
     },
     `gatsby-transformer-sharp`,

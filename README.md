@@ -1,4 +1,6 @@
-## Personal Website 
-Built using Gatsby starter template
+## Personal Website
 
-Site URL: https://harriet-ayugi.onrender.com/
+This is my personal website/portofolio, built using Gatsby
+
+### Site URL: 
+https://harriet-ayugi.onrender.com/

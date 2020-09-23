@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Harriet's Blog`,
+    title: `Harriet's Portfolio site`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@hariclerry`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/static/images`,
       },
       resolve: `gatsby-source-filesystem`,
       options: {

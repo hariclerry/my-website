@@ -1,7 +1,7 @@
 ---
 section: projects
 portifolio:
-    [
+  [
     {
       projectImage: "https://i.ibb.co/LQrh13g/Screenshot-2020-09-22-at-23-40-33.png",
       description: "E-commerce site. This is an online fashion store which enable users to shop online. It's built using React.js, Sass, Styled components, Redux/Saga, Firebase, Stripe API integration with Node.js",
@@ -28,9 +28,9 @@ portifolio:
       url: "https://hariclerry.github.io/product-landing-page.html",
     },
     {
-      projectImage: "https://i.ibb.co/DwkQhCK/Screenshot-2020-09-22-at-07-20-56.png",
-      description: "Documentation page. This a simple JS documentation page built using HTML and CSS",
-      url: "https://hariclerry.github.io/documentation-page.html",
-    }
+      projectImage: "https://i.ibb.co/tHy3BkR/tracker.png",
+      description: "This a simple Kanban board created as a project management tool prototype using ReactJs, Material UI and Redux toolkit",
+      url: "https://project-tracker-board.netlify.app/",
+    },
   ]
 ---

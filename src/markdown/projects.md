@@ -18,7 +18,7 @@ portifolio:
       url: "http://amplifykatale-marketplace-app-dev.s3-website.us-east-2.amazonaws.com/",
     },
     {
-      projectImage: "https://i.ibb.co/CJJc1Dy/Screenshot-2020-09-22-at-07-21-17.png",
+      projectImage: "https://i.ibb.co/1n8FLg7/website-new.png",
       description: "Portofolio site. This is my personal portifolio site Built using Gatsby.",
       url: "https://harriet-ayugi.onrender.com/",
     },

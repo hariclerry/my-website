@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     letter-spacing: 0.6px;
     font-style: normal;
     font-weight: 900;
+    color: white;
   }
 `
 
@@ -27,7 +28,7 @@ export const RepoLink = styled.div`
   font-style: normal;
   a {
     text-decoration: none;
-    color: #3b3a39;
+    color: #dad7d5;
     display: flex;
     align-items: center;
   }
@@ -54,6 +55,7 @@ export const RepoDate = styled.div`
   line-height: 1.6;
   letter-spacing: 0.6px;
   font-style: normal;
+  color: #d5cdcd;
 `
 
 export const RepoStar = styled.div`
@@ -62,6 +64,7 @@ export const RepoStar = styled.div`
   right: 0;
   display: flex;
   align-items: center;
+  color: white;
   svg {
     margin-right: 4px;
   }
@@ -81,4 +84,5 @@ export const RepoDescription = styled.div`
   line-height: 1.4;
   letter-spacing: 0.6px;
   font-style: normal;
+  color: white;
 `

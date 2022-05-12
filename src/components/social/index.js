@@ -20,7 +20,7 @@ export default () => {
 
     .social-link {
       padding: 8px;
-      color: #551e6e;
+      color: #a319e1;
     }
 
     a.social-link.twitter:hover {

@@ -3,6 +3,13 @@ import styled from "styled-components"
 export const Wrapper = styled.div`
   background: transparent;
   width: 100%;
+   color: white !important;
+   @media (max-width: 1200px) {
+     color: #999595 !important;
+  }
+  @media (max-width: 960px) {
+     color: #2f2f2f !important;
+  }
 `
 
 export const Overlay = styled.div`

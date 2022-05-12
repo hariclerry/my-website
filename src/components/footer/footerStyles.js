@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   /* background-position: right top; */
   /* background-repeat: no-repeat; */
   padding: 5rem 0 4rem 0;
-  background-color: #efeeff;
+  background-color: rgba(145, 158, 171, 0.08);
   margin-top: 120px;
 
   @media (max-width: 960px) {
@@ -34,6 +34,7 @@ export const Details = styled.div`
   letter-spacing: 0.6px;
   font-style: normal;
   font-weight: 900;
+  color: #c5c2c2;
   @media (max-width: 680px) {
     margin-bottom: 1rem;
   }
@@ -45,4 +46,5 @@ export const ContactDetails = styled.div`
   letter-spacing: 0.6px;
   font-style: normal;
   font-weight: 900;
+  color: #c5c2c2;
 `

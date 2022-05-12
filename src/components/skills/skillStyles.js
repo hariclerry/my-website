@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     letter-spacing: 0.6px;
     font-style: normal;
     font-weight: 900;
+    color: white;
   }
 `
 
@@ -20,6 +21,7 @@ export const SkillWrapper = styled.div`
   line-height: 1.4;
   letter-spacing: 0.8px;
   font-style: normal;
+  color: #dbd6d6;
 
   @media (max-width: 960px) {
     grid-template-columns: auto auto;

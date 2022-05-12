@@ -43,10 +43,15 @@ export const Details = styled.div`
   font-style: normal;
   font-size: 1rem;
   max-width: 400px;
+  color: #dfdada !important;
+   @media (max-width: 1200px) {
+     color: #999595 !important;
+  }
   @media (max-width: 960px) {
     justify-content: center;
     align-items: center;
     padding-left: 25px;
+     color: #2f2f2f !important;
   }
   h2 {
     font: 1.7rem Optima, sans-serif;
@@ -69,9 +74,16 @@ export const Details = styled.div`
 export const Thumbnail = styled.div`
   flex: 1;
   display: flex;
-  justify-content: start;
-  padding-left: 50px;
-  padding-bottom: 150px;
+  justify-content: center;
+   padding-bottom: 150px;
+   @media (max-width: 1500px) {
+    width: 100%;
+    justify-content: start;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-left: 50px;
+    padding-bottom: 150px;
+  }
   @media (max-width: 960px) {
     width: 100%;
     justify-content: center;

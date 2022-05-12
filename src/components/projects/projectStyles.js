@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     letter-spacing: 0.6px;
     font-style: normal;
     font-weight: 900;
+    color: white;
   }
 `
 
@@ -48,12 +49,14 @@ export const Stats = styled.div`
 
 export const Card = styled.div`
   padding: 1rem;
-  background: #fff;
+  background-color: rgba(145, 158, 171, 0.08);
+  border: 1px solid rgba(145, 158, 171, 0.12);
+  border-radius: 10px;
   width: 100%;
   overflow: hidden;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
   text-decoration: none;
-  color: #424040;
+  color: #dfdada;
 
   ${({ href }) =>
     href &&

@@ -23,9 +23,9 @@ portifolio:
       url: "https://harriet-ayugi.onrender.com/",
     },
     {
-      projectImage: "https://i.ibb.co/3rXWn9M/Screenshot-2020-09-22-at-07-20-30.png",
-      description: "Landing page. This is a simple landing page built using HTML and CSS",
-      url: "https://hariclerry.github.io/product-landing-page.html",
+      projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
+      description: "A mobile marketplace app which enable users to sell the interior accessories that they nolonger need, it is built using React native runs on both IOS and Andriod mobile devices",
+      url: "https://expo.dev/@clerry/smarthomedecor?release-channel=staging",
     },
     {
       projectImage: "https://i.ibb.co/tHy3BkR/tracker.png",

@@ -8,8 +8,13 @@ portifolio:
       url: "https://clerry-clothing-store.herokuapp.com/",
     },
     {
-      projectImage: "https://i.ibb.co/Gn70Dn6/Screenshot-2020-09-22-at-07-18-10.png",
-      description: "Book management App. It's an an app that helps users to manage and store their books lists online. It's built using Nodejs, Express, Reactjs, Redux and Boostrap.",
+      projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
+      description: "A mobile marketplace app which enable users to sell the interior accessories that they nolonger need, it is built using React native runs on both IOS and Andriod mobile devices",
+      url: "https://expo.dev/@clerry/smarthomedecor?release-channel=staging",
+    },
+    {
+      projectImage: "https://i.ibb.co/jgcbjJ2/book-management-img.png",
+      description: "Book management App. It's an an app that helps users to manage and store their book lists online. It's built using Nodejs, Cloudinary intergration, Express, Reactjs, Redux and Boostrap.",
       url: "http://book-management-app-frontend.herokuapp.com/",
     },
     {
@@ -21,11 +26,6 @@ portifolio:
       projectImage: "https://i.ibb.co/1n8FLg7/website-new.png",
       description: "Portofolio site. This is my personal portifolio site Built using Gatsby.",
       url: "https://harriet-ayugi.onrender.com/",
-    },
-    {
-      projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
-      description: "A mobile marketplace app which enable users to sell the interior accessories that they nolonger need, it is built using React native runs on both IOS and Andriod mobile devices",
-      url: "https://expo.dev/@clerry/smarthomedecor?release-channel=staging",
     },
     {
       projectImage: "https://i.ibb.co/tHy3BkR/tracker.png",

@@ -9,13 +9,13 @@ portifolio:
     },
     {
       projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
-      description: "A mobile marketplace app which enable users to sell the interior accessories that they nolonger need, it is built using React native runs on both IOS and Andriod mobile devices",
+      description: "A mobile marketplace app which enable users to sell the interior accessories that they no longer need, it is built using React native runs on both IOS and Andriod mobile devices",
       url: "https://expo.dev/@clerry/smarthomedecor?release-channel=staging",
     },
     {
-      projectImage: "https://i.ibb.co/jgcbjJ2/book-management-img.png",
-      description: "Book management App. It's an an app that helps users to manage and store their book lists online. It's built using Nodejs, Cloudinary intergration, Express, Reactjs, Redux and Boostrap.",
-      url: "http://book-management-app-frontend.herokuapp.com/",
+      projectImage: "https://i.ibb.co/tJ96MYD/game-hub-dark.png",
+      description: "Game discovery APP. It's a video game discovery web app that helps you find new and interesting games to play. With Game discovery APP, you can search for games by platform, genre, and more. Built from RAWG API. It's built using ReactJs, Zustand, Chakra UI and React query.",
+      url: "https://game-discovery-app-jet.vercel.app/",
     },
     {
       projectImage: "https://i.ibb.co/MhDdmXt/Screenshot-2020-09-22-at-07-19-30.png",

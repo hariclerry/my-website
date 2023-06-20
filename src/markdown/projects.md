@@ -5,7 +5,7 @@ portifolio:
     {
       projectImage: "https://i.ibb.co/LQrh13g/Screenshot-2020-09-22-at-23-40-33.png",
       description: "E-commerce site. This is an online fashion store which enable users to shop online. It's built using React.js, Sass, Styled components, Redux/Saga, Firebase, Stripe API integration with Node.js",
-      url: "https://clerry-clothing-store.herokuapp.com/",
+      url: "https://clerry-clothing-store.onrender.com/",
     },
     {
       projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",

@@ -10,7 +10,7 @@ portifolio:
     {
       projectImage: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
       description: "A mobile marketplace app which enable users to sell the interior accessories that they no longer need, it is built using React native runs on both IOS and Andriod mobile devices",
-      url: "https://expo.dev/@clerry/smarthomedecor?release-channel=staging",
+      url: "https://github.com/hariclerry/smart-Interior-react-native/",
     },
     {
       projectImage: "https://i.ibb.co/tJ96MYD/game-hub-dark.png",

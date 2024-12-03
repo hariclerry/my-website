@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   IconBrandGithub,
-  IconBrandX,
   IconBrandLinkedin,
   IconBrandGmail,
 } from '@tabler/icons-react';

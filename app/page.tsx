@@ -1,9 +1,9 @@
-import Hero from './components/Hero';
-import { FloatingNav } from './components/ui/FloatingNav';
-import { navItems } from './data';
-import RecentProjects from './components/RecentProjects';
-import Footer from './components/Footer';
-import TechStack from './components/TechStack';
+import Hero from '../components/Hero';
+import { FloatingNav } from '../components/ui/FloatingNav';
+import { navItems } from '../data';
+import RecentProjects from '../components/RecentProjects';
+import Footer from '../components/Footer';
+import TechStack from '../components/TechStack';
 
 export default function Home() {
   return (

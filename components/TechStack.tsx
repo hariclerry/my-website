@@ -1,5 +1,5 @@
 import React from 'react';
-import { stacks } from '@/app/data';
+import { stacks } from '@/data';
 
 const TechStack = () => {
   return (

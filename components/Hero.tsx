@@ -2,8 +2,6 @@
 import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
-import Image from 'next/image';
-import profilePic from '../images/profile3.jpg';
 import { FloatingDockContainer } from './FloatingDockContainer';
 
 const Hero = () => {
@@ -29,8 +27,8 @@ const Hero = () => {
       </div>
       <div className="flex justify-center relative my-5 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <Image
-            src={profilePic}
+          <img
+            src="/profile3.jpg"
             className="rounded-full w-56 h-56 object-cover grayscale"
             alt="Harriet's personal headshot"
           />

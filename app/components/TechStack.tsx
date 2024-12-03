@@ -8,7 +8,7 @@ const TechStack = () => {
         Tech <span className="text-purple">Stack</span>
       </h1>
       <div className="flex flex-wrap items-center justify-start py-10 gap-10">
-        {stacks.map((item, i) => (
+        {stacks.map((item) => (
           <span
             key={item.id}
             className="flex lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 

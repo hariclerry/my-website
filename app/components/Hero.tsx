@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <Image
             src={profilePic}
-            className="rounded-full w-56 h-56 object-cover"
+            className="rounded-full w-56 h-56 object-cover grayscale"
             alt="Harriet's personal headshot"
           />
         </div>

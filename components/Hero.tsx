@@ -48,7 +48,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center relative my-5 z-10 h-20">
+      <div className="flex justify-center relative z-10 h-6  md:h-16 md:my-4">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <FloatingDockContainer />
         </div>

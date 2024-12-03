@@ -25,18 +25,11 @@ export function FloatingDockContainer() {
       href: 'https://www.linkedin.com/in/harriet-ayugi-05744b99/',
     },
     {
-      title: 'Twitter',
-      icon: (
-        <IconBrandX className="h-full w-full text-purple dark:text-purple" />
-      ),
-      href: 'https://twitter.com/clerryha',
-    },
-    {
       title: 'Email',
       icon: (
         <IconBrandGmail className="h-full w-full text-purple dark:text-purple" />
       ),
-      href: 'harrietayugi24@gmail.com',
+      href: `mailto:harrietayugi24@gmail.com`,
     },
   ];
   return (

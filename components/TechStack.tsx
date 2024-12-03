@@ -3,7 +3,7 @@ import { stacks } from '@/data';
 
 const TechStack = () => {
   return (
-    <section id="stack" className="py-20">
+    <section id="stack" className="py-24">
       <h1 className="heading">
         Tech <span className="text-purple">Stack</span>
       </h1>

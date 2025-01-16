@@ -7,7 +7,9 @@ import { FaReact,
   FaHtml5,
   FaGithub,
   FaBootstrap,
-  FaJava
+  FaJava,
+  FaVideo,
+  FaStream
  } from "react-icons/fa";
  import { SiStyledcomponents , SiRedux, SiChakraui, SiMui, SiTailwindcss, SiTypescript, SiJavascript, SiMongodb, SiMysql} from "react-icons/si";
  import { DiFirebase } from "react-icons/di";
@@ -64,6 +66,14 @@ export const navItems = [
       },
       {
         id: 3,
+        title: "Video conferencing app",
+        img: "https://i.ibb.co/d29z5wH/sync-app-profile.png",
+        description: "A video conferencing app built using ReactJs, Chakra UI, Clerk Auth, Stream Video API, NodeJs and ExpressJs",
+        url: "https://sync-room-video-app.onrender.com/",
+        iconLists: [SiJavascript, FaReact, SiChakraui, FaVideo, FaStream, FaNodeJs],
+      },
+      {
+        id: 4,
         title: "Mobile marketplace app",
         img: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
         description: "An app which enable users to sell the interior accessories that they no longer need, it is built using React native runs on both IOS and Andriod mobile devices",
@@ -71,7 +81,7 @@ export const navItems = [
         iconLists: [SiJavascript, TbBrandReactNative,  FaCss3Alt, FaNodeJs],
       },
       {
-        id: 4,
+        id: 5,
         title: "Market place app",
         img: "https://i.ibb.co/MhDdmXt/Screenshot-2020-09-22-at-07-19-30.png",
         description: "This an online market place app which enables users who want to sell or buy products online to do so. It's built using AWS Amplify, AWS Cognito, React.js, AWS Appsync, AWS S3 and Stripe API integration using AWS lambda function.",
@@ -79,19 +89,11 @@ export const navItems = [
         iconLists: [SiJavascript, FaReact, FaAws, FaStripe],
       },
       {
-        id: 5,
+        id: 6,
         title: "Portofolio site",
         img: "https://i.ibb.co/HPD8dHK/portfolio-shot.png",
         description: "This is my personal portifolio site Built using NextJs, Aceternity UI and Tailwind.",
         url: "https://harriet-ayugi.onrender.com/",
         iconLists: [SiTypescript, FaReact, , TbBrandNextjs, SiTailwindcss],
-      },
-      {
-        id: 6,
-        title: "Kanban board ",
-        img: "https://i.ibb.co/tHy3BkR/tracker.png",
-        description: "This a simple Kanban board created as a project management tool prototype using ReactJs, Material UI and Redux toolkit",
-        url: "https://project-tracker-board.netlify.app/",
-        iconLists: [SiJavascript, FaReact, SiMui, SiRedux],
-      },
+      }
     ]

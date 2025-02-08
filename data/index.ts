@@ -9,12 +9,14 @@ import { FaReact,
   FaBootstrap,
   FaJava,
   FaVideo,
-  FaStream
+  FaStream,
+  FaMap
  } from "react-icons/fa";
  import { SiStyledcomponents , SiRedux, SiChakraui, SiMui, SiTailwindcss, SiTypescript, SiJavascript, SiMongodb, SiMysql} from "react-icons/si";
  import { DiFirebase } from "react-icons/di";
  import { TbBrandReactNative , TbBrandNextjs} from "react-icons/tb";
  import { BiLogoSpringBoot } from "react-icons/bi";
+ import { TbBrandCSharp } from "react-icons/tb";
 
 export const navItems = [
     { name: "About", link: "#about" },
@@ -44,56 +46,61 @@ export const navItems = [
     {  id: 18, name: "Git & Github", icon: FaGithub},
     {  id: 19, name: "Java", icon: FaJava},
     {  id: 20, name: "Spring Boot", icon: BiLogoSpringBoot},
+    {  id: 21, name: "C#", icon: TbBrandCSharp},
   ];
 
   export const projects =
+  
     [
       {
         id: 1,
-        title: "Game discovery APP",
-        img: "https://i.ibb.co/tJ96MYD/game-hub-dark.png",
-        description: "It's a video game discovery web app that helps you find new and interesting games to play. Built from RAWG API, Zustand, ReactJs, Chakra UI and React query.",
-        url: "https://game-discovery-app-jet.vercel.app/",
-        iconLists: [SiJavascript, FaReact, SiChakraui, SiRedux],
+        title: "Property Rental app",
+        img: "https://i.ibb.co/pB19Cy3d/property-dark-home.png",
+        description: "An App that connects property owners with renters. Built using React.js, Next.js, MongoDB, Tailwind CSS, Google Auth, Mapbox, ",
+        url: "https://lease-link-properties-one.vercel.app/",
+        iconLists: [FaReact, TbBrandNextjs, SiTailwindcss, FaMap, FaNodeJs],
       },
       {
         id: 2,
-        title: "E-commerce site",
-        img: "https://i.ibb.co/LQrh13g/Screenshot-2020-09-22-at-23-40-33.png",
-        description: "This is an online fashion store which enable users to shop online. It's built using React.js, Sass, Styled components, Redux/Saga, Firebase, Stripe API integration with Node.js",
-        url: "https://clerry-clothing-store.onrender.com/",
-        iconLists: [SiJavascript, FaReact, SiStyledcomponents, SiRedux, FaStripe, DiFirebase,FaSass, FaNodeJs],
-      },
-      {
-        id: 3,
         title: "Video conferencing app",
         img: "https://i.ibb.co/d29z5wH/sync-app-profile.png",
         description: "A video conferencing app built using ReactJs, Chakra UI, Clerk Auth, Stream Video API, NodeJs and ExpressJs",
         url: "https://sync-room-video-app.onrender.com/",
         iconLists: [SiJavascript, FaReact, SiChakraui, FaVideo, FaStream, FaNodeJs],
       },
+    
+      {
+        id: 3,
+        title: "E-commerce site",
+        img: "https://i.ibb.co/LQrh13g/Screenshot-2020-09-22-at-23-40-33.png",
+        description: "An online fashion store which enable users to shop online. It's built using React.js, Sass, Styled components, Redux/Saga, Firebase, Stripe API integration with Node.js",
+        url: "https://clerry-clothing-store.onrender.com/",
+        iconLists: [SiJavascript, FaReact, SiStyledcomponents, SiRedux, FaStripe, DiFirebase,FaSass, FaNodeJs],
+      },
+
       {
         id: 4,
+        title: "Game discovery APP",
+        img: "https://i.ibb.co/tJ96MYD/game-hub-dark.png",
+        description: "An app that helps you find new and interesting games to play. Built from RAWG API, Zustand, ReactJs, Chakra UI and React query.",
+        url: "https://game-discovery-app-jet.vercel.app/",
+        iconLists: [SiJavascript, FaReact, SiChakraui, SiRedux],
+      },
+   
+      {
+        id: 5,
         title: "Mobile marketplace app",
         img: "https://i.ibb.co/ySTTqPR/native-collage.jpg",
-        description: "An app which enable users to sell the interior accessories that they no longer need, it is built using React native runs on both IOS and Andriod mobile devices",
+        description: "An app which enable users to sell the interior accessories that they no longer need, built using React native runs on both IOS and Andriod mobile devices",
         url: "https://github.com/hariclerry/smart-Interior-react-native/",
         iconLists: [SiJavascript, TbBrandReactNative,  FaCss3Alt, FaNodeJs],
       },
       {
-        id: 5,
+        id: 6,
         title: "Market place app",
         img: "https://i.ibb.co/MhDdmXt/Screenshot-2020-09-22-at-07-19-30.png",
-        description: "This an online market place app which enables users who want to sell or buy products online to do so. It's built using AWS Amplify, AWS Cognito, React.js, AWS Appsync, AWS S3 and Stripe API integration using AWS lambda function.",
+        description: "An app which enables users who want to sell or buy products online to do so. It's built using AWS Amplify, AWS Cognito, React.js, AWS Appsync, AWS S3 and Stripe API integration using AWS lambda function.",
         url: "http://amplifykatale-marketplace-app-dev.s3-website.us-east-2.amazonaws.com/",
         iconLists: [SiJavascript, FaReact, FaAws, FaStripe],
-      },
-      {
-        id: 6,
-        title: "Portofolio site",
-        img: "https://i.ibb.co/HPD8dHK/portfolio-shot.png",
-        description: "This is my personal portifolio site Built using NextJs, Aceternity UI and Tailwind.",
-        url: "https://harriet-ayugi.onrender.com/",
-        iconLists: [SiTypescript, FaReact, , TbBrandNextjs, SiTailwindcss],
       }
     ]

@@ -41,10 +41,10 @@ const Hero = () => {
       <div className="flex justify-center relative my-5 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="text-center md:tracking-wider mb-1 text-sm md:text-lg lg:text-xl dark:text-white">
-            An Experienced JavaScript Software Engineer with a passion in
-            frontend development who enjoys reading, dancing, swimming, rope
-            skipping, watching sitcoms, riding bikes and spending time with
-            family and friends when not coding!
+            An Experienced Software Engineer with a passion in building
+            applications that make meaningful impacts who enjoys reading,
+            dancing, swimming, rope skipping, watching sitcoms, riding bikes and
+            spending time with family and friends when not coding!
           </p>
         </div>
       </div>

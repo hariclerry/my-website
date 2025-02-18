@@ -17,6 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Harriet's Portfolio",
   description: 'A brief summary of my work',
+  keywords: 'Harriet Ayugi, Software Engineer, Portfolio',
 };
 
 export default function RootLayout({

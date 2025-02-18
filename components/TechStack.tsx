@@ -12,7 +12,7 @@ const TechStack = () => {
           <span
             key={item.id}
             className="flex lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#1b1b30] gap-2 items-center"
+                    lg:opacity-100 rounded-lg text-center bg-[#151527] gap-2 items-center"
           >
             {item.icon ? <Icon icon={item.icon} /> : null}
             <p
@@ -38,5 +38,5 @@ interface IconProps {
 }
 
 const Icon: React.FC<IconProps> = ({ icon: IconComponent }) => {
-  return <IconComponent className="text-4xl text-blue-700" />;
+  return <IconComponent className="text-4xl text-[#0d8ebf]" />;
 };
